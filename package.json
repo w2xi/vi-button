@@ -1,15 +1,19 @@
 {
-  "name": "@w2xi/vi-button",
+  "name": "@w2xi/v-button",
+  "description": "A button compoment for Vue",
   "version": "0.1.0",
   "private": false,
-  "main": "dist/vi-button.umd.js",
-  "moudle": "dist/vi-button.esm.js",
-  "ukkg": "dist/vi-button.min.js",
+  "main": ".dist/@w2xi/v-button.common.js",
+  "repository": "https://github.com/w2xi/vi-button",
+  "bugs": "https://github.com/w2xi/vi-button/issues",
+  "keywords": ["vue", "js"],
+  "license": "MIT",
+  "files": ["dist"],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build:lib": "vue-cli-service build --target "
+    "build:lib": "vue-cli-service build --target lib --name @w2xi/v-button ./src/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",

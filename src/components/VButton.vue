@@ -1,6 +1,6 @@
 <template>
 	<button
-		:class="['vi-button', this.className]"
+		:class="['v-button', this.className]"
 	>
 		<slot />
 	</button>
@@ -12,7 +12,7 @@ const typeList = [
 	'primary', 'info', 'warning', 'danger', 'success'
 ]
 
-const classPrifix = 'vi-button--'
+const classPrifix = 'v-button--'
 
 export default {
 	props: {
@@ -86,7 +86,7 @@ export default {
 
 <style lang="stylus" scoped>
 
-.vi-button
+.v-button
 	display: inline-block
 	line-height: 1
 	white-space: nowrap
@@ -108,7 +108,7 @@ export default {
 		border-color: #c6e2ff
 		background-color: #ecf5ff
 
-.vi-button--primary
+.v-button--primary
 	color: #fff
 	background-color: #409eff
 	border-color: #409eff
@@ -117,7 +117,7 @@ export default {
 		background-color: #66b1ff
 		border-color: #66b1ff
 
-.vi-button--success
+.v-button--success
 	color: #fff
 	background-color: #67c23a
 	border-color: #67c23a
@@ -126,7 +126,7 @@ export default {
 		background-color: #85ce61
 		border-color: #85ce61
 
-.vi-button--info
+.v-button--info
 	color: #fff
 	background-color: #909399
 	border-color: #909399
@@ -135,7 +135,7 @@ export default {
 		background-color: #a6a9ad
 		border-color: #a6a9ad
 
-.vi-button--warning
+.v-button--warning
 	color: #fff
 	background-color: #e6a23c
 	border-color: #e6a23c
@@ -144,7 +144,7 @@ export default {
 		background-color: #ebb563
 		border-color: #ebb563
 
-.vi-button--danger
+.v-button--danger
 	color: #fff
 	background-color: #f56c6c
 	border-color: #f56c6c
@@ -153,13 +153,13 @@ export default {
 		background-color: #f78989
 		border-color: #f78989
 
-.vi-button.is-plain:focus,
-.vi-button.is-plain:hover
+.v-button.is-plain:focus,
+.v-button.is-plain:hover
 	background-color: #fff
 	border-color: #409eff
 	color: #409eff
 
-.vi-button--primary.is-plain
+.v-button--primary.is-plain
 	color: #409eff
 	background: #ecf5ff
 	border-color: #b3d8ff
@@ -168,7 +168,7 @@ export default {
 		border-color: #409eff
 		color: #fff
 
-.vi-button--success.is-plain
+.v-button--success.is-plain
 	color: #67c23a
 	background: #f0f9eb
 	border-color: #c2e7b0
@@ -177,7 +177,7 @@ export default {
 		border-color: #67c23a
 		color: #fff
 
-.vi-button--info.is-plain
+.v-button--info.is-plain
 	color: #909399
 	background: #f4f4f5
 	border-color: #d3d4d6
@@ -186,7 +186,7 @@ export default {
 		border-color: #909399
 		color: #fff
 
-.vi-button--warning.is-plain
+.v-button--warning.is-plain
 	color: #e6a23c
 	background: #fdf6ec
 	border-color: #f5dab1
@@ -195,7 +195,7 @@ export default {
 		border-color: #e6a23c
 		color: #fff
 		
-.vi-button--danger.is-plain
+.v-button--danger.is-plain
 	color: #f56c6c
 	background: #fef0f0
 	border-color: #fbc4c4

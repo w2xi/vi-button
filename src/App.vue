@@ -1,33 +1,33 @@
 <template>
   <div id="app">
     <div class="row">
-      <vi-button>Default</vi-button>
-      <vi-button type="primary">Primary</vi-button>
-      <vi-button type="success">Success</vi-button>
-      <vi-button type="info">Info</vi-button>
-      <vi-button type="warning">Warning</vi-button>
-      <vi-button type="danger">Danger</vi-button>
+      <v-button>Default</v-button>
+      <v-button type="primary">Primary</v-button>
+      <v-button type="success">Success</v-button>
+      <v-button type="info">Info</v-button>
+      <v-button type="warning">Warning</v-button>
+      <v-button type="danger">Danger</v-button>
     </div>
 
     <div class="row">
-      <vi-button plain>Plain Default</vi-button>
-      <vi-button type="primary" plain>Plain Primary</vi-button>
-      <vi-button type="success" plain>Plain Success</vi-button>
-      <vi-button type="info" plain>Plain Info</vi-button>
-      <vi-button type="warning" plain>Plain Warning</vi-button>
-      <vi-button type="danger" plain>Plain Danger</vi-button>
+      <v-button plain>Plain Default</v-button>
+      <v-button type="primary" plain>Plain Primary</v-button>
+      <v-button type="success" plain>Plain Success</v-button>
+      <v-button type="info" plain>Plain Info</v-button>
+      <v-button type="warning" plain>Plain Warning</v-button>
+      <v-button type="danger" plain>Plain Danger</v-button>
     </div>
   </div>
 </template>
 
 <script>
 
-import ViButton from '@/components/button/index'
+import VButton from '@/components/VButton'
 
 export default {
   name: 'App',
   components: {
-    ViButton
+    VButton
   }
 }
 </script>
