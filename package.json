@@ -1,5 +1,5 @@
 {
-  "name": "@w2xi/v-button",
+  "name": "vue-hello-button",
   "description": "A button compoment for Vue",
   "version": "0.1.0",
   "private": false,
@@ -13,7 +13,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build:lib": "vue-cli-service build --target lib --name @w2xi/v-button ./src/index.js"
+    "build:lib": "vue-cli-service build --target lib --name vue-hello-button ./src/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
