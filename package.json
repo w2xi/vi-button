@@ -1,14 +1,19 @@
 {
   "name": "vue-hello-button",
   "description": "A button compoment for Vue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "main": "dist/vue-hello-button.common.js",
   "repository": "https://github.com/w2xi/vi-button",
   "bugs": "https://github.com/w2xi/vi-button/issues",
-  "keywords": ["vue", "js"],
+  "keywords": [
+    "vue",
+    "js"
+  ],
   "license": "MIT",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
