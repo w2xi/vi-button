@@ -3,7 +3,7 @@
   "description": "A button compoment for Vue",
   "version": "0.1.0",
   "private": false,
-  "main": ".dist/@w2xi/v-button.common.js",
+  "main": "dist/vue-hello-button.common.js",
   "repository": "https://github.com/w2xi/vi-button",
   "bugs": "https://github.com/w2xi/vi-button/issues",
   "keywords": ["vue", "js"],
